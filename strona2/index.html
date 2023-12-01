@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>RZULTA STRONA INTERNETU</title>
+        <style>
+    body{
+    background-color:yellow;
+
+    }
+    .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .P1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Algerian;
+    color:black;
+
+    }
+    .center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Algerian;
+    color:black;
+    }
+    </style>
+    </head>
+    <body>
+    <div class="P1">
+    <a href="https://www.youtube.com/watch?v=3oKH38_q_Io">Prawda Watykanu</a>
+    </div>
+    <div class="center">
+      <button id="click"><img src="https://data4.cupsell.pl/upload/generator/247026/640x420/4837217_print_2.png?resize=max_sizes&key=55f9a22768eed085006592c1174c0235" alt="Prawda Watykanu"  /></button>
+    </div>
+    <div class="center2">
+    Kliknij aby zbic pione z papiezem:
+    </div>
+    <div class="center2">Liczba zbitych pion:<span id="counter"></span></div>
+    <center>
+    <audio controls src="Barka.mp3" autoplay loop></audio>
+    </center>
+    
+
+    
+      <script>
+    var counter = 0;
+
+    document.getElementById("click").addEventListener("click", function() {
+      counter++;
+      document.getElementById("counter").innerHTML = counter;
+    });
+
+  </script>
+    
+    </body>
+</html>
