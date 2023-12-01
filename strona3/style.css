@@ -1,0 +1,52 @@
+.lewus{
+    float:left;
+    background-color:gray;
+    color: black;
+  }
+  .prawus{
+    float:right;
+    background-color: gray;
+    color: black;
+  }
+  .lewus, .prawus{
+    border:3px double black;
+    border-radius:20px;
+    padding:5px;
+    width:45%;
+  }
+  .lewus input, .prawus input{
+    margin:1%;
+    width:97%;
+    border-radius:20px;
+  }
+  .guzik{
+    background-color:#B22222;
+  }
+  .guzik, .lewy input, .prawy input{
+    padding:5px;
+    border:4px double black;
+    border-radius:5px;
+    color:white;
+    border-radius:20px;
+  }
+  .lewus input:hover, .lewus input:active{
+    background-color:#6495ED;
+    color:#fff;
+    cursor: help;
+  }
+   .luty input:active, .luty input:hover
+  {
+     background-color:	#A52A2A;
+     color:#fff;
+     cursor: help;
+  }
+  .przycisk input:active, .przycisk input:hover{
+       background-color:#32CD32;
+    cursor: progress;
+    color:black;
+  }
+  body{
+    background-color:lightgray;
+    background-image: url('data:image/svg+xml,%3Csvg width="42" height="44" viewBox="0 0 42 44" xmlns="http://www.w3.org/2000/svg"%3E%3Cg id="Page-1" fill="none" fill-rule="evenodd"%3E%3Cg id="brick-wall" fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+  }
+  

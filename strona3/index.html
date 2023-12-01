@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+  <body>
+    <form id="form">
+    <div class="lewus">
+      <label for="name">imię:</label>
+     <input type="text" id="name" name="imie"><br>
+     <label for="surname">nazwisko:</label>
+     <input type="text" id="surname" name="nazwisko"><br>
+     <label for="miasto">miasto:</label>
+     <input type="text" name="miasto" id="miasto"><br> 
+      <label for="adres">adres:</label>
+      <input type="text" name="adres" id="adres"><br>
+      <label for="kod pocztowy">kod pocztowy:</label>
+      <input type="text" name="kodpoczt" id="kodp"><br>
+     </div>
+    <div class="prawus">
+      <div class="luty">
+       <label for="pesel">pesel:</label>
+     <input type="number" name="pesel" id="pesel"><br>
+     <label for="dob">data urodzenia:</label>
+     <input type="date" name="data" id="dob"><br>
+        <label for="gender">Płeć</label>
+       <select name="plec" id="gender">
+        <option value="0">Kobieta</option>
+        <option value="1">Mezczyzna</option>
+         <option value="3">Helikopter Bojowy</option>
+      </select>   
+      </div>
+      <div class=przycisk>
+     <input type="button" class="guzik" value="PRZEŚLIJ" onclick="funkcja()">
+      </div>
+      <div id="wypluwacz"><p style="color:red;">Tutaj zostanie    wyświetlony błąd</p></div>
+                <table class="table" id="tabela">
+             <tbody>   
+             <tr>
+                 <td>zmienna</td>
+                 <td>wartość</td>
+                 <td>opcja</td>
+             </tr> 
+             </tbody>  
+            </table>
+      </div>
+    </form>
+    </body>
+    
+    <script src="script.js">
+    </script>
+</body>
+</html>
